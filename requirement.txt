@@ -1,0 +1,7 @@
+transformers
+torch
+fastapi
+streamlit
+Pillow
+numpy
+uvicorn
