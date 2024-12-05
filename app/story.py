@@ -1,10 +1,10 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-# Load GPT-2 model and tokenizer
+token = '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'
 
 def load_model():
-    tokenizer = AutoTokenizer.from_pretrained("/local_model")
-    model = AutoModelForCausalLM.from_pretrained("/local_model")
+    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
+    model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
 
     return tokenizer, model
 
